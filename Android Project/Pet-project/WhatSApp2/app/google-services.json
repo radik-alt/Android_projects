@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585510238991",
+    "project_id": "realwatsapp",
+    "storage_bucket": "realwatsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585510238991:android:492a18e80b4b31ac0f5c7a",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585510238991-5uhrqdkptddutranskgm7067tf8rbrqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAViY2zoUnMaX3KAzCxAiqaF63GBVENGfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585510238991-5uhrqdkptddutranskgm7067tf8rbrqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

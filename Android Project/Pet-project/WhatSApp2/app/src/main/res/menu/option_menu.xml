@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Поиск"
+        android:id="@+id/search_menu"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:title="Создать группу"
+        android:id="@+id/group_menu"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:title="Настройки"
+        android:id="@+id/setting_menu"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:title="Выйти"
+        android:id="@+id/logout_menu"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>
