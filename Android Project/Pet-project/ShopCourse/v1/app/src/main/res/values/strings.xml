@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ShopCourse</string>
+    <string name="itemOne">Главная</string>
+    <string name="itemTwo">Про нас</string>
+    <string name="itemThree">Контакты</string>
+    <string name="level">Уровень</string>
+    <string name="startED">Старт обучения</string>
+    <string name="programm1">Программа обучения Джава – рассчитана на новичков в данной сфере.</string>
+    <string name="programm2">За программу вы изучите построение графических приложений под ПК,
+    разработку веб сайтов на основе Java Spring Boot, изучите построение полноценных Андроид приложений
+    и отлично изучите сам язык Джава!</string>
+    <string name="korzina">Добавить в корзину</string>
+</resources>
