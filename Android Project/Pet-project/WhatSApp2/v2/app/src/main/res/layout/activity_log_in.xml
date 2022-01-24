@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/temp"
+    tools:context=".Authenticate.LogIN">
+
+    <Button
+        android:id="@+id/logIN_titile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_"
+        android:drawableBottom="@color/black"
+        android:maxLines="1"
+        android:text="Введите свой номер телефона"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/mess_SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logIN_titile"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Messanger отправит вам SMS-сообщение, чтоб подвердить ваш номер телефона"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/code_ph"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mess_SMS"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:hint="Введите код подтверждения"
+            android:visibility="invisible" />
+        <EditText
+            android:id="@+id/number_ph"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/mess_SMS"
+            android:background="@drawable/input"
+            android:hint="Номер телефона"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number_ph"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_click"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Далее"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number_ph"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="Подтвердить"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/email_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_click"
+        android:padding="10dp"
+        android:text="Email"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="18dp" />
+
+</RelativeLayout>

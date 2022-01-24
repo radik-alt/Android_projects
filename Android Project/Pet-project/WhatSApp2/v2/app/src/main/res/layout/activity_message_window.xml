@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Messager.MessageWindow">
+
+    <LinearLayout
+        android:layout_above="@+id/textSend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:background="@color/temp"
+            android:id="@+id/recycleMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/textSend"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/inputmessage"
+            android:hint="message"
+            android:padding="10dp" />
+
+        <ImageButton
+            android:id="@+id/send"
+            android:src="@drawable/sms"
+            android:layout_weight="0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <ImageButton
+            android:id="@+id/file"
+            android:src="@drawable/sms"
+            android:layout_weight="0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
