@@ -1,0 +1,23 @@
+com/example/whatsapp/BuildConfig.java
+ com.example.whatsapp.BuildConfig
+com/example/whatsapp/TabsAdapter.java
+ com.example.whatsapp.TabsAdapter
+com/example/whatsapp/GroupsFragment.java
+ com.example.whatsapp.GroupsFragment
+com/example/whatsapp/ContactsFragment.java
+ com.example.whatsapp.ContactsFragment
+com/example/whatsapp/RegistrActivity2.java
+ com.example.whatsapp.RegistrActivity2
+com/example/whatsapp/MainActivity.java
+ com.example.whatsapp.MainActivity
+com/example/whatsapp/ChatsFragment.java
+ com.example.whatsapp.ChatsFragment
+com/example/whatsapp/Welcome.java
+ com.example.whatsapp.Welcome
+ com.example.whatsapp.Welcome$1
+com/example/whatsapp/LogInActivity2.java
+ com.example.whatsapp.LogInActivity2
+ com.example.whatsapp.LogInActivity2$1
+ com.example.whatsapp.LogInActivity2$2
+ com.example.whatsapp.LogInActivity2$3
+ com.example.whatsapp.LogInActivity2$4
