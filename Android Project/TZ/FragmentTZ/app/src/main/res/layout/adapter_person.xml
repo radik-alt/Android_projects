@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/f_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Имя"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:gravity="center"  />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/l_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Фаимлия"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:gravity="center" />
+
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Возраст"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>
